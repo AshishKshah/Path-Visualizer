@@ -344,8 +344,6 @@ class PathVisualizer extends Component {
     }
   };
 
-  /*------------------------------------------------------------------------------------------------------------------------------*/
-
   // sets the stae to visualizing, to prevent any other func from executing during the visualization
   setVisualization = () => {
     this.setState({
